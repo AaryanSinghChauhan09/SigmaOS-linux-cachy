@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_linux_cachy"
+version = "0.1.0"
+edition = "2021"
+description = "CachyOS performance kernel optimizations, BORE scheduler hints, and bcachefs tuning"
+
+[lib]
+name = "sigmaos_linux_cachy"
+path = "src/lib.rs"
